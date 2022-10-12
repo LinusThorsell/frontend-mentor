@@ -1,3 +1,11 @@
+# Writeup on my blog can be found here: [https://linusthorsell.se/blogpost?p=221012](https://linusthorsell.se/blogpost?p=221012)
+
+***
+
+# Challenge files
+
+***
+
 # Frontend Mentor - QR code component
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
