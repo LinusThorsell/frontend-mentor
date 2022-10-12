@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+</head>
+
+<style>
+.paragraph {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.paragraph_smaller {
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 5%;
+}
+.outfitweight400 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+.outfitweight700 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+.white {
+    color: hsl(0, 0%, 100%);
+}
+.lightgray {
+    color: hsl(212, 45%, 89%);
+}
+.grayishblue {
+    color: hsl(220, 15%, 55%);
+}
+.darkblue {
+    color: hsl(218, 44%, 22%);
+}
+.whitebg {
+    background-color: hsl(0, 0%, 100%);
+}
+.lightgraybg {
+    background-color: hsl(212, 45%, 89%);
+}
+.grayishbluebg {
+    background-color: hsl(220, 15%, 55%);
+}
+.darkbluebg {
+    background-color: hsl(218, 44%, 22%);
+}
+</style>
+
+<body 
+    class='lightgraybg' 
+    style='
+        display: grid; 
+        align-items: center;
+        justify-content: center;
+        height: 100vh; 
+        width: 100vw;
+        overflow: hidden;
+    '
+>
+    <!-- component container -->
+    <div 
+        class='whitebg'
+        style='
+            width: 20em;
+            height: fit-content;
+            border-radius: 0.75em;
+            text-align: center;
+        '
+    >
+        <!-- qr code display image -->
+        <img
+            src='images/image-qr-code.png' 
+            alt='Output QR Code.'
+            style='
+                width: 90%;
+                border-radius: 0.75em;
+                margin-top: 5%;
+            '
+        >
+
+        <!-- title text -->
+        <p 
+            class='
+                paragraph 
+                outfitweight700 
+                darkblue
+            '
+            style='
+                width: 90%; 
+                margin-left: 5%;
+            '
+        >
+            Improve your front-end 
+            skills by building projects.
+        </p>
+
+        <!-- description text -->
+        <p
+            class='
+                paragraph_smaller
+                outfitweight400
+                grayishblue
+            '
+            style='
+                width: 90%; 
+                margin-left: 5%;
+            '
+        >
+            Scan the QR code to visit 
+            Frontend Mentor and take 
+            your coding skills to the 
+            next level.
+        </p>
+    </div>
+</body>
+</html>
